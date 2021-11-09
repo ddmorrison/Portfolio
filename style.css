@@ -1,4 +1,25 @@
-h1{
-    color:cadetblue
+section{
+    color:thistle;
+    background-color:mintcream;
     text-align: center;
+    font-family: Lucida Sans;
+    border-color: thistle;
+}
+#section1{
+    color: Cornflowerblue; 
+
+}
+#h2 {
+    color: cornflowerblue;
+}
+ul{
+    text-align: left;
+}
+#s3{
+    text-align: left;
+    color:cornflowerblue;
+}
+#s4{
+    text-align: left;
+    color:cornflowerblue;
 }
