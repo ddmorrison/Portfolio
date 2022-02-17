@@ -1,25 +1,136 @@
-section{
-    color:thistle;
-    background-color:mintcream;
-    text-align: center;
-    font-family: Lucida Sans;
-    border-color: thistle;
-}
-#section1{
-    color: Cornflowerblue; 
+/*CSS Directory*/
 
+/*Fonts*/
+/* latin */
+/* latin */
+@font-face {
+  font-family: "Redressed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redressed/v23/x3dickHUbrmJ7wMy9Msxe_oD.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
-#h2 {
-    color: cornflowerblue;
+/*1. Header */
+header {
+  display: block;
+  background-color: #fff;
+  align-content: center;
+  margin: 10px auto;
+  padding: 20px;
 }
-ul{
-    text-align: left;
+h1 {
+  text-align: center;
+  align-content: center;
+  color: #ff57a0;
+  font-family: Redressed;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 10px;
 }
-#s3{
-    text-align: left;
-    color:cornflowerblue;
+/*2 nav Bar*/
+nav {
+  background-color: #fff;
+  align-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
 }
-#s4{
-    text-align: left;
-    color:cornflowerblue;
+a {
+  display: inline-flex;
+  color: #ff57a0;
+  padding: 20px 30px;
+  margin: 10px;
+  gap: 40px;
+  position: relative;
+  font-family: Redressed;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+a:link {
+  color: #ff57a0;
+}
+a:visited {
+  color: #78859f;
+}
+a:hover {
+  color: #64eb68;
+  text-decoration: underline;
+}
+/*Body*/
+body {
+  background-image: url("/pexels-lisa-fotios-1083822.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-content: center;
+  text-align: center;
+  opacity: 0.9;
+}
+h3 {
+  color: #ff57a0;
+  padding: 20px;
+  margin: 0 auto;
+  height: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+img {
+  height: auto;
+  max-width: 250px;
+  border-radius: 50%;
+  opacity: none;
+  padding: 10px 20px;
+  float: left;
+  margin: auto;
+}
+article.aboutme,
+.education,
+.code {
+  display: block;
+  overflow: scroll;
+  background-color: #fff;
+  font-family: Redressed;
+  font-size: 25px;
+  color: #000;
+}
+.education,
+.code {
+  text-align: center;
+  align-content: center;
+  margin: 10px;
+  padding: 10px 20px;
+}
+article.aboutme {
+  text-align: left;
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.langs {
+  text-align: center;
+}
+p {
+  text-align: left;
+  padding: 30px;
+  margin: auto;
+}
+
+ul > li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000;
+  align-content: center;
+  text-align: center;
+  height: 30px;
+  margin: 0 auto;
 }
