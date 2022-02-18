@@ -35,12 +35,13 @@ h1 {
 }
 /*2 nav Bar*/
 nav {
+  display: inline-block;
   background-color: #fff;
   align-content: center;
   text-align: center;
   width: 50%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 a {
   display: inline-flex;
@@ -65,61 +66,68 @@ a:hover {
 }
 /*Body*/
 body {
-  background-image: url("/pexels-lisa-fotios-1083822.jpg");
+  background-image: url("https://serving.photos.photobox.com/85816717d24d6dbd155df7c9d7480a5f321cbb04567e80235bef95db9ed2f60908666b27.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  align-content: center;
   text-align: center;
+  align-content: center;
   opacity: 0.9;
+  overflow: visible;
 }
 h3 {
   color: #ff57a0;
-  padding: 20px;
+  padding: 0px;
   margin: 0 auto;
   height: 10px;
   text-align: center;
   text-decoration: underline;
 }
 img {
+  display: block;
   height: auto;
   max-width: 250px;
   border-radius: 50%;
   opacity: none;
   padding: 10px 20px;
-  float: left;
+  align-content: center;
   margin: auto;
 }
 article.aboutme,
 .education,
 .code {
   display: block;
-  overflow: scroll;
   background-color: #fff;
   font-family: Redressed;
   font-size: 25px;
   color: #000;
 }
-.education,
+.education {
+  text-align: center;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
 .code {
   text-align: center;
   align-content: center;
   margin: 10px;
   padding: 10px 20px;
+  font-size: 16px;
 }
 article.aboutme {
-  text-align: left;
-  align-content: center;
+  text-align: justify;
+  align-content: justify;
   margin: 10px;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .langs {
   text-align: center;
 }
 p {
-  text-align: left;
-  padding: 30px;
+  text-align: center;
   margin: auto;
+  padding: 20px 50px;
 }
 
 ul > li {
